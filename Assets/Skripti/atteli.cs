@@ -12,6 +12,8 @@ public class atteli : MonoBehaviour {
 	public GameObject apaviIzv;
 	public GameObject akses;
 	public GameObject aksesIzv;
+	public GameObject kleitas;
+	public GameObject kleitasIzv;
 
 
 	public void krekluAttelosana(bool vertiba){
@@ -25,6 +27,9 @@ public class atteli : MonoBehaviour {
 	}
 	public void aksesAttelosana(bool vertiba){
 		aksesIzv.SetActive (vertiba);
+	}
+	public void kleitasAttelosana(bool vertiba){
+		kleitasIzv.SetActive (vertiba);
 	}
 
 
