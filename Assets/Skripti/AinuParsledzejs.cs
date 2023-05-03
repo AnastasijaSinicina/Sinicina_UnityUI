@@ -23,4 +23,8 @@ public class AinuParsledzejs : MonoBehaviour {
 	public void uzZens(){
 		SceneManager.LoadScene("PR", LoadSceneMode.Single);
 }
+    public void uzMeitene()
+    {
+        SceneManager.LoadScene("Meitene", LoadSceneMode.Single);
+    }
 }
