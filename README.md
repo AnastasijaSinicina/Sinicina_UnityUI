@@ -3,13 +3,13 @@
 ## Veicamo darbu saraksts
 
 - [x] Pievienot varoņus
-- [ ] Teksta elementu lietojums
-- [ ] Pievienot visus attelus
-- [ ] Pievienot Button elementus
+- [x] Teksta elementu lietojums
+- [x] Pievienot visus attelus
+- [x] Pievienot Button elementus
 - [x] Pievienot Toggle elementus
 - [x] Drop Down pievienosana
-- [ ] Pievienot Slider elementus
-- [ ] Scroll view pieveinosana
+- [x] Pievienot Slider elementus
+- [x] Scroll view pieveinosana
 - [x] Parslegsana starp ainam
-- [ ] Drag un drop pievienosana
-- [ ] Audio pievienosana
+- [x] Drag un drop pievienosana
+- [x] Audio pievienosana
