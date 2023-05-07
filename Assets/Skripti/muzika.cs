@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class kursorsUzAttela : MonoBehaviour {
+public class muzika : MonoBehaviour {
 
 	public AudioSource skanasAvots;
 	public AudioClip skanaKoAtskanot;
@@ -10,6 +10,12 @@ public class kursorsUzAttela : MonoBehaviour {
 	public AudioClip skanaKoAtskanot2;
 	public AudioSource skanasAvots3;
 	public AudioClip skanaKoAtskanot3;
+	public AudioSource skanasAvots4;
+	public AudioClip skanaKoAtskanot4;
+	public AudioSource skanasAvots5;
+	public AudioClip skanaKoAtskanot5;
+
+
 
 	public void uzbiditsUzPoga()
 	{
@@ -21,18 +27,37 @@ public class kursorsUzAttela : MonoBehaviour {
 	}
 	public void uzbiditsUzaJaunu()
 	{
-		skanasAvots.PlayOneShot(skanaKoAtskanot);
+		skanasAvots2.PlayOneShot(skanaKoAtskanot2);
 	}
 	public void kursorsNost2()
 	{
-		skanasAvots.Stop();
+		skanasAvots2.Stop();
 	}
 	public void uzbiditsUzApgerbs()
 	{
-		skanasAvots.PlayOneShot(skanaKoAtskanot);
+		skanasAvots3.PlayOneShot(skanaKoAtskanot3);
 	}
 	public void kursorsNos3()
 	{
-		skanasAvots.Stop();
+		skanasAvots3.Stop();
 	}
+	public void uzbiditsUzMeitene()
+	{
+		skanasAvots4.PlayOneShot(skanaKoAtskanot4);
+	}
+	public void kursorsNos4()
+	{
+		skanasAvots4.Stop();
+	}
+	public void fonaMusika()
+	{
+		skanasAvots5.PlayOneShot(skanaKoAtskanot5);
+	}
+	public void kursorsNos5()
+	{
+		skanasAvots5.Stop();
+	}
+
+
+
 }

@@ -27,4 +27,6 @@ public class AinuParsledzejs : MonoBehaviour {
     {
         SceneManager.LoadScene("Meitene", LoadSceneMode.Single);
     }
+
+
 }
